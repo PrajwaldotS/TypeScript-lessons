@@ -14,3 +14,7 @@ let prajwal : User = {
     age: 25,
     email: "prajwal@example.com"
 } // valid, prajwal has properties of User type
+
+type Age = number | string ; // union type alias for age that can be either a number or a string
+let myAge : Age = 12;
+let herAge : Age = "twelve"
