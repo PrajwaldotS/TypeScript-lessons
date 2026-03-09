@@ -1,0 +1,9 @@
+//string literal type
+let Username : "prajwal" ;
+Username = "praju" // this gives an error because we have defined the type of the variable as a string literal type which means it can only take the value "prajwal" and we cannot change it to any other value. We can only assign the value "prajwal" to the variable Username and we cannot change it to any other value. This is useful when we want to restrict the value of a variable to a specific set of values. In this case, we want to restrict the value of the variable Username to only "prajwal".
+//number literal type
+let contactNo : 12345678;
+contactNo = 98765432; // this gives an error because we have defined the type of the variable as a number literal type which means it can only take the value 12345678 and we cannot change it to any other value. We can only assign the value 12345678 to the variable contactNo and we cannot change it to any other value. This is useful when we want to restrict the value of a variable to a specific set of values. In this case, we want to restrict the value of the variable contactNo to only 12345678.
+//boolean literal type
+let isLoggedIn : true;
+isLoggedIn = false; // this gives an error because we have defined the type of the variable as a boolean literal type which means it can only take the value true and we cannot change it to any other value. We can only assign the value true to the variable isLoggedIn and we cannot change it to any other value. This is useful when we want to restrict the value of a variable to a specific set of values. In this case, we want to restrict the value of the variable isLoggedIn to only true.
