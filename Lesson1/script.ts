@@ -30,3 +30,8 @@ function voidFunction() : void {
  console.log(direction.bottom);
  console.log(direction.left);
  console.log(direction.right);
+
+//  two types of type are ther primitive and reference 
+// a tpe of a varible should not be any in any condition 
+// tuple exsists only in ts not in js 
+// any and unknown looks similar but before using any u dont have to type check but before using unknow u have to type check an then use it 
