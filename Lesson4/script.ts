@@ -1,8 +1,7 @@
 // type aliases in which two are the primitive types alias and the other is the object type alias
-
 //primitive type alias
 type name = string;
-type age = name ;
+type age = number ;
 // object type alias
 type User = {
     name : string ;
