@@ -38,3 +38,8 @@ function sum(...numbers: number[]): void {
 sum(1,2,3,4,5)  // "...numbers" will take all the arguments passed to the function and store them in an array called "numbers". We can then use this array to perform operations on the arguments passed to the function. In this case, we are just logging the array of numbers to the console. The return type of this function is void because it does not return anything.
 
 //the default return typeof function is void because it does not return anything but we can also specify the return type of a function by using the syntax functionName(): returnType 
+
+this is to specify the return type of a function explicitly. For example, if we want to specify that a function returns a string, we can write it as follows:
+function getGreeting(): string {
+    return "Hello, World!";
+}
